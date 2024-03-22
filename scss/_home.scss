@@ -21,11 +21,6 @@
             h1{
                 max-width: 668px;
                 margin-bottom: 8px;
-
-                span{
-                    font-family: Raleway;
-                    color: $gray;
-                }
             }
             p{
                 max-width: 474px;
@@ -62,11 +57,10 @@
     flex-direction: row;
     align-items: center;
     height: 60px;
-    background: linear-gradient(61deg, #B882FA 0%, #7C68FC 100%);
+    background: $primary;
     transform: rotate(-2.32deg);
 
     span{
-        font-family: 'Raleway', sans-serif;
         font-weight: 500;
         letter-spacing: 4px;
         font-size: 18px;
@@ -209,7 +203,7 @@
             padding-top: 60px;
 
             h2{
-                max-width: 458px;
+                max-width: 420px;
                 span{
                     color: $primary;
                 }
@@ -371,9 +365,7 @@
                 max-width: 457px;
                 margin-bottom: 8px;
                 span{
-                    font-family: 'Raleway', sans-serif;
-                    font-size: 35px;
-                    line-height: 120%;
+                    line-height: 140%;
                     color: $primary;
                 }
             }
@@ -413,11 +405,7 @@
                 max-width: 338px;
                 text-align: center;
                 span{
-                    font-family: 'Raleway', sans-serif;
-                    font-weight: 500;
-                    font-size: 35px;
-                    line-height: 120%;
-                    color: $gray;
+                    color: $primary;
                 }
             }
         }
@@ -648,7 +636,7 @@
                 color: $gray;
                 margin-top: 20px;
                 span{
-                    font-family: 'Exo 2';
+                    font-family: "Poppins", sans-serif;
                     font-weight: 700;
                     color: $white;
                 }
@@ -698,9 +686,6 @@
         .text{
             text-align: center;
             span{
-                font-family: Raleway;
-                font-weight: 500;
-                font-size: 35px;
                 color: $primary;
             }
         }
@@ -766,11 +751,7 @@
             max-width: 523px;
             color: $white;
             text-align: center;
-            font-family: Raleway;
             font-size: 45px;
-            font-weight: 500;
-            line-height: 120%;
-            letter-spacing: 2.7px;
         }
         .btn{
             margin-top: 20px;

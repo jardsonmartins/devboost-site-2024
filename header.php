@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri() ?>/img/favicon.svg">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/node_modules/aos/dist/aos.css">
@@ -21,12 +21,12 @@
             <a href="https://jardsonmartins.com"><img src="<?php echo get_template_directory_uri() ?>/img/logo.svg" alt="" class="logo"></a>
             <nav>
                 <ul>
-                    <li><a href="https://jardsonmartins.com">Home</a></li>
+                    <li><a href="https://devboost.com.br">Home</a></li>
                     <li><a href="#portfolio">Portfólio</a></li>
                     <li><a href="#depositions">Depoimentos</a></li>
                     <li><a href="#faq">Faq</a></li>
                 </ul>
-                <a href="https://wa.me/5585997801390?text=Quero+fazer+um+or%C3%A7amento"><button class="btn">Solicitar proposta</button></a>
+                <a href="https://wa.me/5585992364455?text=Quero+fazer+um+or%C3%A7amento"><button class="btn">Solicitar proposta</button></a>
                 <div class="btn-mobile" id="js-btn-menu-mobile">
                     <i class="fa-solid fa-bars"></i>
                 </div>
@@ -45,7 +45,7 @@
                         <li><a href="#depositions">Depoimentos</a></li>
                         <li><a href="#faq">Faq</a></li>
                     </ul>
-                    <a href="https://wa.me/5585997801390?text=Quero+fazer+um+or%C3%A7amento"><button class="btn">Solicitar proposta</button></a>
+                    <a href="https://wa.me/5585992364455?text=Quero+fazer+um+or%C3%A7amento"><button class="btn">Solicitar proposta</button></a>
                 </nav>
             </aside>
         </div>

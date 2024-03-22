@@ -12,11 +12,11 @@
                 </div>
                 <h1><?php the_field('subtitulo_hero') ?></h1>
                 <p>J<?php the_field('descricao_hero') ?></p>
-                <a href="https://wa.me/5585997801390?text=Quero+fazer+um+or%C3%A7amento"><button class="btn"><?php the_field('texto_do_botao_hero') ?></button></a>
+                <a href="https://wa.me/5585992364455?text=Quero+fazer+um+or%C3%A7amento"><button class="btn"><?php the_field('texto_do_botao_hero') ?></button></a>
             </div>
         </div>
     </section>
-
+<!--
     <section class="line">
         <span>Design</span>
         <img src="<?php echo get_template_directory_uri() ?>/img/icon/star.svg" alt="">
@@ -51,7 +51,7 @@
         <span>Seo</span>
         <img src="<?php echo get_template_directory_uri() ?>/img/icon/star.svg" alt="">
     </section>
-
+-->
     <section class="portfolio" id="portfolio">
         <div class="container">
             <div class="top">
@@ -104,9 +104,9 @@
     <section class="performance">
         <div class="container">
             <div class="text" data-aos="fade-right">
-                <h2><?php the_field('titulo_performance') ?></span></h2>
+                <h2><?php the_field('titulo_performance') ?></h2>
                 <p><?php the_field('descricao_performance') ?></p>
-                <a href="https://wa.me/5585997801390?text=Quero+fazer+um+or%C3%A7amento"><button class="btn"><?php the_field('texto_do_botao_performance') ?></button></a>
+                <a href="https://wa.me/5585992364455?text=Quero+fazer+um+or%C3%A7amento"><button class="btn"><?php the_field('texto_do_botao_performance') ?></button></a>
             </div>
         </div>
     </section>
@@ -114,7 +114,7 @@
     <section class="forWho">
         <div class="container">
             <div class="top">
-                <h2><?php the_field('titulo_pra_quem') ?></span></h2>
+                <h2><?php the_field('titulo_pra_quem') ?></h2>
             </div>
             <div class="bottom">
                 <?php if( have_rows('itens_pra_quem') ) : while ( have_rows('itens_pra_quem') ) : the_row(); ?>
@@ -179,32 +179,11 @@
         </div>
     </section>
 
-    <section class="profile">
-        <div class="container">
-            <div class="image" data-aos="fade-right">
-                <img src="<?php  the_field('imagem_perfil') ?>" alt="">
-            </div>
-            <div class="content">
-                <div class="name">
-                    <h2><?php  the_field('nome_perfil') ?></h2>
-                    <img src="<?php echo get_template_directory_uri() ?>/img/verified.svg" alt="">
-                </div>
-                <div class="office"><?php  the_field('funcao_perfil') ?></div>
-                <p class="description"><?php  the_field('descricao_perfil') ?></p>
-                <p class="social">Me acompanhe nas minhas redes <span><?php  the_field('arroba_do_instagram_perfil') ?></span></p>
-                <div class="icons">
-                    <a href="https://www.instagram.com/jardsonmartins/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/jardsonmartins/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="faq" id="faq">
         <div class="container">
             <div class="text">
-                <h2><?php  the_field('titulo_faq') ?></h2>
-                <p><?php  the_field('descricao_faq') ?></p>
+                <h2><?php the_field('titulo_faq') ?></h2>
+                <p><?php the_field('descricao_faq') ?></p>
             </div>
 
             <div class="content">
@@ -232,7 +211,7 @@
                 <?php endwhile; else : endif; ?>
             </div>
             <h2><?php the_field('titulo_contato') ?></h2>
-            <a href="https://wa.me/5585997801390?text=Quero+fazer+um+or%C3%A7amento" data-aos="zoom-in"><button class="btn"><?php the_field('texto_do_botao_contato') ?></button></a>
+            <a href="https://wa.me/5585992364455?text=Quero+fazer+um+or%C3%A7amento" data-aos="zoom-in"><button class="btn"><?php the_field('texto_do_botao_contato') ?></button></a>
         </div>
     </section>
     
