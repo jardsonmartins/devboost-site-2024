@@ -1,0 +1,15 @@
+.btn{
+    padding: 14px 55px 16px 55px;
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 15px;
+    background: $gradient;
+    color: $white;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 6px;
+
+    &:hover{
+        background: $primary;
+    }
+}
