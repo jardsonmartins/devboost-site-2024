@@ -1,0 +1,49 @@
+@font-face{
+    font-family: 'Ballega';
+    src: url('../assets/fonts/Ballega.otf') format('opentype');
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ballega', 'Poppins';
+    font-weight: 400;
+}
+h1{
+    font-size: 36px;
+    line-height: 135%;
+}
+h2{
+    font-size: 32px;
+    line-height: 135%;
+}
+h3{
+    font-size: 25px;
+    line-height: 135%;
+}
+h4{
+    font-size: 22px;
+    line-height: 135%;
+}
+h5{
+    font-size: 18px;
+    line-height: 135%;
+}
+h6{
+    font-size: 16px;
+    line-height: 135%;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.title{
+    color: $orange;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.8px;
+    text-transform: uppercase;
+}

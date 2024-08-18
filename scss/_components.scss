@@ -1,0 +1,184 @@
+.line{
+    width: 34px;
+    height: 4px;
+    background: $orange;
+}
+
+.card-solution{
+    max-width: 384px;
+
+    .image{
+        height: 321px;
+        width: 384px;
+        overflow: hidden;
+        margin-bottom: 25px;
+
+        img{
+            object-fit: cover;
+            transition: all .3s;
+            
+            &:hover{
+                scale: 1.05;
+            }
+        }
+    }
+    h3{
+      margin-bottom: 5px;
+    }
+    p{
+        margin-bottom: 20px;
+    }
+    a{
+        color: $orange;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%;
+    }
+
+    @media (max-width: 750px){
+        text-align: center;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.card-case{
+    width: 384px;
+    height: 384px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+
+    .text{
+        position: relative;
+        left: 40px;
+        bottom: 120px;
+
+        h3{
+            color: $white;
+            margin-bottom: 15px;
+        }
+    }
+
+    @media (max-width: 650px){
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.card-blog{
+    max-width: 384px;
+    a{
+        color: $black;
+        .image{
+            overflow: hidden;
+            margin-bottom: 20px;
+
+            img{
+                width: 384px;
+                height: 211px;
+                object-fit: cover;
+                transition: all .3s;
+
+                &:hover{
+                    scale: 1.05;
+                }
+            }
+        }
+
+        h5{
+            margin-bottom: 20px;
+        }
+
+        .btn{
+            color: $orange;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 160%;
+        }
+
+        @media (max-width: 576px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
+
+.card-blog-large{
+    max-width: 700px;
+
+    .image{
+        overflow: hidden;
+        img{
+            max-width: 696px;
+            height: auto;
+            transition: all .3s;
+            
+            &:hover{
+                scale: 1.04;
+            }
+        }
+    }
+    .text{
+        margin-top: 25px;
+        .title{
+            margin-bottom: 5px;
+        }
+        h4{
+            color: $black;
+        }
+    }
+}
+
+.card-blog-small{
+    max-width: 488px;
+    margin-bottom: 25px;
+
+    a{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .image{
+            margin-right: 32px;
+            overflow: hidden;
+            
+            img{
+                width: 176px;
+                height: 110px;
+                object-fit: cover;
+                transition: all .3s;
+            
+                &:hover{
+                    scale: 1.05;
+                }
+            }
+        }
+        .text{
+            max-width: 280px;
+            .title{
+                margin-bottom: 5px;
+            }
+            h5{
+                color: $black;
+            }
+        }
+    }
+}

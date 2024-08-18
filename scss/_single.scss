@@ -1,0 +1,190 @@
+#topo-single{
+    background-color: #041015;
+}
+
+.breadcrumbs{
+    margin-top: 90px;
+    border-bottom: 1px solid #CAD1EB;
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+
+        p{
+            padding: 0 10px;
+        }
+    }
+}
+
+.content-title{
+    background-color: #F8F8FC;
+
+    .container{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 90px;
+    }
+}
+
+.single{
+    padding: 70px 0 0;
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .search{
+            max-width: 100px;
+            ul{
+                li{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 41px;
+                    height: 41px;
+                    border-radius: 50%;
+                    border-radius: 39px;
+                    border: 1px solid rgba(246, 93, 37, 0.20);
+
+                    &:not(:first-child){
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+        .content{
+            max-width: 800px;
+
+            .image{
+                max-width: 800px;
+                height: auto;
+            }
+            .text{
+                margin-top: 25px;
+
+                h3{
+                    margin-top: 5px;
+                }
+                .info{
+                    display: flex;
+                    flex-direction: row;
+                    padding: 10px 0 20px;
+                    margin-bottom: 20px;
+                    border-bottom: 1px solid #C8C8C8;
+
+                    .author{
+                        padding-right: 15px;
+                        border-right: 1px solid #E3E3E3;
+                    }
+                    .min{
+                        padding: 0 15px;
+                        border-right: 1px solid #E3E3E3;
+                    }
+                    .date{
+                        padding-left: 15px;
+                    }
+                    span{
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .free-content{
+            max-width: 280px;
+        }
+    }
+
+    @media (max-width: 1200px){
+        .container{
+            .search{
+                display: none;
+            }
+        }
+    }
+
+    @media (max-width: 1120px){
+        .container{
+            .free-content{
+                display: none;
+            }
+        }
+    }
+
+    @media (max-width: 1115px){
+        .container{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            
+            .search{
+                display: none;
+            }
+            .content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                max-width: 100%;
+                .text{
+                    .info{
+                        display: flex;
+                        flex-direction: column;
+
+                        .author, .min{
+                            border: 0;
+                        }
+                    }
+                }
+            }
+            .free-content{
+                margin-top: 50px;
+                max-width: 100%;
+                
+                .image{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 576px){
+        .container{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            
+            .free-content{
+                display: block;
+            }
+        }
+    }
+}
+
+.similarPosts{
+    margin-top: 70px;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .text{
+            text-align: center;
+            max-width: 450px;
+            margin-bottom: 30px;
+        }
+        .bottom{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}

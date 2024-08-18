@@ -1,0 +1,208 @@
+footer{
+    width: 100%;
+    height: auto;
+    background-color: $black;
+    .container{
+        padding-top: 60px;
+        .top{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .infos{
+                max-width: 238px;
+                .logo{
+                    margin-bottom: 18px;
+
+                    &:hover{
+                        opacity: 0.8;
+                    }
+
+                }
+                p{
+                    color: #B0B0B0;
+                }
+                .social{
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 20px;
+    
+                    .icon{
+                        background: rgba(255, 255, 255, 0.10);
+                        width: 43px;
+                        height: 43px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 18px;
+                        transition: all .3s;
+    
+                        img{
+                            width: 20px;
+                            height: auto;
+
+                            &:hover{
+                                scale: 1.1;
+                            }
+                        }
+                    }
+                }
+            }
+            .services, .menus, .contacts{
+                h5{
+                    color: $white;
+                    margin-bottom: 15px;
+                }
+                ul{
+                    li{
+                        margin-bottom: 20px;
+                        a{
+                            display: flex;
+                            flex-direction: row;
+                            color: #CFCFD0;
+                            font-family: Inter;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 160%;
+                            
+                            &:hover{
+                                color: $orange;
+                            }
+
+                            img{
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .bottom{
+            padding: 60px 0 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .content-left{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                p{
+                    color: $white;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+                .lineTwo{
+                    margin: 0 20px;
+                    height: 1px;
+                    width: 157px;
+                    background: #CFCFD0;
+                }
+                .lgpd{
+                    a{
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%;
+                        color: #CFCFD0;
+                        margin-right: 40px;
+
+                        &:hover{
+                            color: $orange;
+                        }
+                    }
+                }
+            }
+            .content-right{
+                a{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    p{
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%;
+                        color: #CFCFD0;
+                        margin-right: 10px;
+
+                        &:hover{
+                            color: $orange;
+                        }
+                    }
+                    .circle{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 37px;
+                        height: 37px;
+                        border-radius: 20px;
+                        background: rgba(255, 255, 255, 0.20);
+                    }
+                }
+            }
+        }
+    }
+
+
+    @media (max-width: 576px){
+        .container{
+            text-align: center;
+
+            .top{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .infos{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .contacts{
+                    ul{
+                        a{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                    }
+                }
+
+                .services, .menus, .contacts{
+                    margin-top: 30px;
+                }
+            }
+            .bottom{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .content-left{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        .lineTwo{
+                            display: none;
+                        }
+
+                        .lgpd{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            margin: 20px 0;
+
+                            a{
+                                margin: 0;
+                            }
+                        }
+                }
+            }
+        }
+    }
+}
